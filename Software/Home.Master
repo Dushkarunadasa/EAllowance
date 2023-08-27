@@ -56,12 +56,15 @@
                         <span>Incentive Form</span></a>
                 </li>
 
-
-
                 <li class="nav-item">
                     <a class="nav-link" id="UDataEntry" href="DataEntry.aspx" runat="server">
                         <i class="fas fa-fw fa-user"></i>
                         <span>Data Entry</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="UDataEntrynes" href="DataEntryWithoutDate.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>Data Entry  Second Mode </span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="USecratray" href="Forward.aspx" runat="server">
@@ -73,7 +76,26 @@
                         <i class="fas fa-fw fa-user"></i>
                         <span>Allowance </span></a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link" id="UFinalPay_DataEntry" href="FinalPay_DataEntry_Pay.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>Finalpay Data </span></a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="UFinalPaySSOSM" href="DataEntrySSOSM.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>Finalpay Data </span></a>
+                </li>
+                   <li class="nav-item">
+                    <a class="nav-link" id="UFinalPayApprove" href="FinalPay_DataForward.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>Finalpay-SSO(SM)  </span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="UFinalPay_Pay" href="FinalPay_DataCheck.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>Finalpay  </span></a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" id="UAuditStaff" href="PayItem_Checking.aspx" runat="server">
                         <i class="fas fa-fw fa-user"></i>
@@ -85,18 +107,57 @@
                         <span>Incentive Forms</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="UIncentiveCO" href=" IncentiveFormCommonInbox.aspx" runat="server">
+                    <a class="nav-link" id="IncentiveBase" href="IncentiveBaseChange.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>Incentive Update</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="UIncentiveCO" href="IncentiveFormCommonInbox.aspx" runat="server">
                         <i class="fas fa-fw fa-user"></i>
                         <span>Incentive Forms</span></a>
                 </li>
-                    <li class="nav-item">
-                    <a class="nav-link" id="DDNIncentive" href=" IncentiveFormsDDN.aspx" runat="server">
+                <li class="nav-item">
+                    <a class="nav-link" id="DDNIncentive" href="IncentiveFormsDDN.aspx" runat="server">
                         <i class="fas fa-fw fa-user"></i>
                         <span>Incentive Forms</span></a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="UHRMSData" href="HRMSApprovedData.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>GCB/QPay- HRMS </span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="AdjEntry" href="327Adjustment.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>327Adjustment</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="AdjForward" href="327Forward.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>327Adjustment</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="AdjForwardDNVC" href="327ForwardDNVC.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>327Adjustment</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="UForwardPay" href="327ForwardPay.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>327Adjustment</span></a>
+                </li>
+
+
+
+
+
+
+
 
                 <!-- Divider -->
                 <hr class="sidebar-divider" />
+
+
 
                 <div class="sidebar-heading">
                     Transaction History
@@ -112,6 +173,7 @@
                         <i class="fas fa-fw fa-user"></i>
                         <span>Allowances History</span></a>
                 </li>
+
                 <!-- Divider -->
                 <hr class="sidebar-divider">
 
@@ -140,7 +202,7 @@
 
 
             </ul>
-            
+
             <!-- End of Sidebar -->
 
             <!-- Content Wrapper -->

@@ -33,8 +33,10 @@
         <asp:Button ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Login" class="btn btn-block login-btn mb-4" />
     </div>
     <asp:Label ID="lblinfo" runat="server" Class="text-danger" Text=""></asp:Label>
-    <br />
-    <br />
+       <br />
+     <a class="nav-link" id="UDataEntrynes" href="UserUtilities.aspx" runat="server">
+                        <i class="fas fa-fw fa-user"></i>
+                        <span>Change your Base/Ship </span></a>
     <div class="form-group row  ">
         <div class="col-2"></div>
         <div class="col-10">

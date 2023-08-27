@@ -51,17 +51,17 @@
                       </form> 
 
                               
-            </div>
+ <script src="Content/js/jquery-3.4.1.min.js"></script>
+    <%--https://code.jquery.com/jquery-3.4.1.min.js--%>
+    <script src="Content/js/popper.min.js"></script>
+    <%--          </div>
           </div>
         </div>
       </div>
   
     </div>
   </main>
-    <script src="Content/js/jquery-3.4.1.min.js"></script>
-    <%--https://code.jquery.com/jquery-3.4.1.min.js--%>
-    <script src="Content/js/popper.min.js"></script>
-    <%--https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js--%>
+    <https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js--%>
     <script src="Content/js/bootstrap.min.js"></script>
 
     <%-- https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js --%>

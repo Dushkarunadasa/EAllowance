@@ -116,14 +116,8 @@
                                     <asp:Label ID="lblinfoRole" runat="server"  Text="Label" Visible="False" ForeColor ="Red" ></asp:Label>
                                 </div>
                                 <div style="text-align: center;">
-
-
                                     <asp:Button ID="btnRoleSave" runat="server" OnClick="btnRoleSave_Click" Text="Save" CssClass="btn btn-primary " />
-
-
                                     <asp:Button ID="btnRoleClear" runat="server" OnClick="btnRoleClear_Click" Text="Clear" CssClass="btn btn-primary " />
-
-
                                 </div>
 
                             </div>

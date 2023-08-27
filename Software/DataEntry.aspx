@@ -296,7 +296,7 @@
                     <ContentTemplate>
                         <div class="form-group row">
 
-                            <asp:GridView ID="GVTransDetails" class="table table-info table-striped" runat="server" Width="1105px" OnLoad="GVTransDetails_Load" OnRowCommand="GVTransDetails_RowCommand">
+                            <asp:GridView ID="GVTransDetails" class="table table-info table-striped" runat="server" Width="1105px" OnLoad="GVTransDetails_Load" OnRowCommand="GVTransDetails_RowCommand" OnSelectedIndexChanged="GVTransDetails_SelectedIndexChanged">
                                 <Columns>
                                     <asp:ButtonField ButtonType="Button" CommandName="Select" HeaderText="Select" ShowHeader="True" Text="Select" />
                                 </Columns>

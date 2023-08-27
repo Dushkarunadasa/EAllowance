@@ -28,6 +28,7 @@
                     <asp:UpdatePanel ID="updatePanel1" runat="server" UpdateMode="Conditional" ChildrenAsTriggers="True">
                         <ContentTemplate>
                             <fieldset>
+
                                 <div class="form-group row">
                                     <asp:GridView ID="GvTransPending" runat="server" class="table table-dark table-striped" Width="1285px" OnRowCommand="GvTransPending_RowCommand">
                                         <Columns>

@@ -35,6 +35,9 @@
                                         <Columns>
                                             <asp:ButtonField ButtonType="Button" ControlStyle-CssClass="btn btn-success" CommandName="Forward" HeaderText="Forward" ShowHeader="True" Text="Forward" />
                                         </Columns>
+                                        <Columns>
+                                            <asp:ButtonField ButtonType="Button" ControlStyle-CssClass="btn btn-success" CommandName="Rollback" HeaderText="Rollback" ShowHeader="True" Text="Rollback" />
+                                        </Columns>
                                         <SelectedRowStyle BackColor="#669999" Font-Bold="True" ForeColor="White" />
                                     </asp:GridView>
                                 </div>
@@ -94,14 +97,14 @@
     <br />
     <br />
     <div class="form-group row">
-        <asp:UpdatePanel ID="updatePanel4" runat="server" UpdateMode="Conditional">
+        <asp:UpdatePanel ID="updatePanel4" runat="server" UpdateMode="Conditional"  >
             <ContentTemplate>
 
                 <asp:GridView ID="GvSubjectItemsList" runat="server" AutoPostBack="true" class="table table-dark table-striped" Width="1285px">
                     <SelectedRowStyle BackColor="#669999" Font-Bold="True" ForeColor="White" />
                 </asp:GridView>
 
-                <asp:GridView ID="GvSubjectItems" runat="server" AutoPostBack="true" class="table table-dark table-striped" OnRowCommand="GvSubjectItems_RowCommand" Width="1285px">
+                <asp:GridView ID="GvSubjectItems" runat="server" AutoPostBack="true" class="table table-dark table-striped" OnRowCommand="GvSubjectItems_RowCommand" Width="1285px" OnRowDataBound="GvSubjectItems_RowDataBound">
                     <Columns>
                         <asp:ButtonField ButtonType="Button" CommandName="Reject" ControlStyle-CssClass="btn btn-danger" HeaderText="Reject" ShowHeader="True" Text="Reject" />
                     </Columns>
